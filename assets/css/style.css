@@ -144,3 +144,137 @@ input:hover{
   margin-top: -42px;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar{
+    float: right;
+    margin-right: -1px;
+    margin-top: -126px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 17px;
+  }
+  
+  li{
+    display: inline;
+    float: left;
+    padding: 0.3rem;
+  }
+  
+  .menu{
+    width: 1rem;
+    margin-top: 3px;
+    margin-left: 14px;
+    display: none;
+  }
+  
+  .account{
+    width: 31px;
+    margin-top: -8px;
+    margin-left: -45px;
+  }
+  
+  /*main*/
+  
+  .logo{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 131px;
+  }
+  
+  input{
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: -34px;
+    width: 17rem;
+    height: 46px;
+  }
+  
+  input:hover{
+    box-shadow: 1px 1px #b3b3b3;
+    transition: 0.6s;
+  }
+  
+  .search .fa{
+    font-size: 20px;
+    color: #9aa0a6;
+    margin-left: 34rem;
+    margin-top: 35px;
+  }
+  
+  
+  .button{
+    margin-top: -14px;
+  }
+  
+  .btn-1{
+    margin-right: auto;
+    margin-left: 36px;
+    display: block;
+    margin-top: 45px;
+    padding: 11px;
+    border: none;
+    background-color: #f8f9fa;
+    color:#3c4043;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+  
+  .btn-1:hover{
+    box-shadow: 1px 1px 1px rgb(155, 155, 155);
+    transition: 0.3s;
+  }
+  
+  .btn-2{
+    margin-right: auto;
+    display: block;
+    margin-left: 180px;
+    margin-top: -39px;
+    padding: 11px;
+    border: none;
+    background-color: #f8f9fa;
+    color:#3c4043;
+    font-size: 15px;
+  }
+  
+  .btn-2:hover{
+    box-shadow: 1px 1px 1px rgb(155, 155, 155);
+    transition: 0.3s;
+  }
+  
+  .lang p{
+    margin-top: 24px;
+    text-align: center;
+    margin-left: -407px;
+    font-size: 14px;
+    display: none;
+  }
+  
+  .lang a{
+    text-decoration: none;
+    color: #3024b3; 
+    font-size: 13px;
+  }
+  
+  
+  .clever {
+    margin-left: 655px;
+    margin-top: -42px;
+    display: none;
+  }
+  #flask{
+    margin-left: 21px;
+    font-size: 21px;
+  }
+}
